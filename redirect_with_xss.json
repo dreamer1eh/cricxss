@@ -2,7 +2,7 @@
     "url": "https://dreamer1eh.github.io/cricxss/redirect_with_xss.yaml",
     "urls": [
         {
-            "url": "dreamer1eh.github.io/cricxss/redirect_with_xss.yaml",
+            "url": "https://dreamer1eh.github.io/cricxss/redirect_with_xss.yaml",
             "name": "XSS TO OPEN REDIRECT BY RAJNISH"
         }
     ]
