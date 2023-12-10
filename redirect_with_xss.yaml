@@ -15,7 +15,7 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /cyberarch:
+  /dreamer:
     get:
       responses:
         '200':
@@ -179,7 +179,7 @@ paths:
           description: No response was specified
       tags:
         - accounts
-      description: 'You can PUT, POST, and DELETE using this resource URL. I_EH_DREAMER'
+      description: 'You can PUT, POST, and DELETE using this resource URL.'
       operationId: findUsersByName
       summary: Finds users by name
   /activationcode:
@@ -366,7 +366,7 @@ paths:
           description: No response was specified
       tags:
         - advancedmobiledevicesearches
-      description: 'You can PUT, POST, and DELETE using this resource URL. I_EH_DREAMER'
+      description: 'You can PUT, POST, and DELETE using this resource URL.'
       operationId: findMobileDeviceSearchesByName
       summary: Finds mobile device searches by name
   /advancedusersearches:
